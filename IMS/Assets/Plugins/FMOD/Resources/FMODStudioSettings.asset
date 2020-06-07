@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 0
+  HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../ims - fmod/ims.fspro
-  sourceBankPath: ../ims - fmod/Build
+  sourceProjectPath: ../ims2/ims2.fspro
+  sourceBankPath: ..\ims2\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 0
   BankLoadType: 1
@@ -76,7 +76,8 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264

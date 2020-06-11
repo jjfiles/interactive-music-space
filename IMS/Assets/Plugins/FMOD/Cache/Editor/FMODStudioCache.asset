@@ -14,11 +14,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../ims2/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637271383144163878
+  lastModified: 637270713995232667
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 868
+  Exists: 1
+--- !u!114 &-2481965087457355353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../ims2/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637273953860329473
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -34,7 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -7329740728049291144}
-  - {fileID: 5811081057211669778}
+  - {fileID: -2481965087457355353}
   EditorEvents:
   - {fileID: 4175691137154165582}
   - {fileID: 2543994279546482344}
@@ -42,10 +60,10 @@ MonoBehaviour:
   - {fileID: 5392412958758254443}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5811081057211669778}
+  - {fileID: -2481965087457355353}
   StringsBanks:
   - {fileID: -7329740728049291144}
-  stringsBankWriteTime: 637271383144163878
+  stringsBankWriteTime: 637270713995232667
   cacheVersion: 3
 --- !u!114 &2543994279546482344
 MonoBehaviour:
@@ -62,7 +80,7 @@ MonoBehaviour:
   Path: event:/IMS/Perc
   guid: 88fa76d561f0324c8c83b5b7a1ecdcf0
   Banks:
-  - {fileID: 5811081057211669778}
+  - {fileID: -2481965087457355353}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -103,7 +121,7 @@ MonoBehaviour:
   Path: event:/IMS/Concert
   guid: 4f06821e3f61d34ab128a54aac062d87
   Banks:
-  - {fileID: 5811081057211669778}
+  - {fileID: -2481965087457355353}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -126,7 +144,7 @@ MonoBehaviour:
   Path: event:/IMS/Strings
   guid: bd7ace65477be24bb35f8771d5991b67
   Banks:
-  - {fileID: 5811081057211669778}
+  - {fileID: -2481965087457355353}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -149,7 +167,7 @@ MonoBehaviour:
   Path: event:/IMS/Piano
   guid: ba94d14a318191468a6317c9aed350e8
   Banks:
-  - {fileID: 5811081057211669778}
+  - {fileID: -2481965087457355353}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -174,4 +192,4 @@ MonoBehaviour:
   lastModified: 637271383144023799
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0

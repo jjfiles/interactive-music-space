@@ -18,7 +18,7 @@
     },
     {
       "name": "/actions/default/in/Pose",
-      "type": "vector3"
+      "type": "pose"
     },
     {
       "name": "/actions/default/in/SkeletonLeftHand",

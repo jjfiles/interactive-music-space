@@ -49,7 +49,7 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Vector3 Pose
+        public virtual SteamVR_Action_Pose Pose
         {
             get
             {

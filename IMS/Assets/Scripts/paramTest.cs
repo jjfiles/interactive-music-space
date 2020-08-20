@@ -26,36 +26,19 @@ public class paramTest : MonoBehaviour
         test();
     }
 
-    private void OnTriggerEnter(Collider other) {
-        //print("other: " + other.name);
-        //print("zone: " + zoneNum);
-
-        if (other.name == "c1") {
-            soundEvent.setParameterByName(zoneNum + "-1", 1);
-        }
-        if (other.name == "c2") {
-            soundEvent.setParameterByName(zoneNum + "-2", 1);
-        }
-        if (other.name == "c3") {
-            soundEvent.setParameterByName(zoneNum + "-3", 1);
-        }
-        if (other.name == "c4") {
-            soundEvent.setParameterByName(zoneNum + "-4", 1);
+    private void OnTriggerEnter(Collider other) 
+    {
+        if (!other.name.Contains("z")) {
+            soundEvent.setParameterByName(zoneNum + other.name, 1);
+            print("paramter: " + zoneNum + other.name + " on");
         }
     }
 
-    private void OnTriggerExit(Collider other) {
-        if (other.name == "c1") {
-            soundEvent.setParameterByName(zoneNum + "-1", 0);
-        }
-        if (other.name == "c2") {
-            soundEvent.setParameterByName(zoneNum + "-2", 0);
-        }
-        if (other.name == "c3") {
-            soundEvent.setParameterByName(zoneNum + "-3", 0);
-        }
-        if (other.name == "c4") {
-            soundEvent.setParameterByName(zoneNum + "-4", 0);
+    private void OnTriggerExit(Collider other) 
+    {
+        if (!other.name.Contains("z")) {
+            soundEvent.setParameterByName(zoneNum + other.name, 0);
+            print("paramter: " + zoneNum + other.name + " off");
         }
     }
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f63c77b5-e84f-4479-b546-e9ebd7a510d0}">
+		<property name="assetPath">
+			<value>Drum ALT.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>120</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{51791d50-602c-40ad-bcde-037956a2e2ae}</destination>
+		</relationship>
+	</object>
+</objects>

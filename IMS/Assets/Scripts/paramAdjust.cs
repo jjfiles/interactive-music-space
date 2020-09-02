@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class paramAdjust : MonoBehaviour 
 {
     [FMODUnity.EventRef]
     public string bank;
     public string zone;
-    FMOD.Studio.EventInstance sEvent;
+    public FMOD.Studio.EventInstance sEvent;
     public KeyCode playbackStart;
     public KeyCode playbackStop;
     public KeyCode playbackMute;
@@ -25,7 +26,8 @@ public class paramAdjust : MonoBehaviour
     void Update() 
     {
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(sEvent, GetComponent<Transform>(), GetComponent<Rigidbody>());
-        controls(); 
+        controls();
+        
     }
 
     private void OnTriggerEnter(Collider other) 
@@ -44,6 +46,7 @@ public class paramAdjust : MonoBehaviour
         }
     }
 
+
     void controls() {
         if (Input.GetKeyDown(playbackStart))
         {
@@ -60,6 +63,7 @@ public class paramAdjust : MonoBehaviour
             for (int i = 1; i < 5; i++)
             {
                 sEvent.setParameterByName(zone + "-" + i.ToString(), 0);
+                sEvent.setParameterByName(zone + "-" + i.ToString() + "a", 0);
             }
         }
     }

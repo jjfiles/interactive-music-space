@@ -1,0 +1,689 @@
+[LOG] System::create                           : Header version = 2.00.09. Current version = 2.00.09.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20009 (109255), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=44100, nAvgBytesPerSec=352800, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 3760 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0000022BFE449078 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 125)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSound                     : filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] SystemI::createSound                     : setdata soundi = 0000022BFE0469C8 : node = 0000022BFDEABC40
+[LOG] SystemI::createSound                     : add node to async list : head = 00000229F15E3058.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE0469C8
+[LOG] SystemI::createSound                     : filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE044658 : node = 0000022BFDEABEC0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BFDEABD50
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE048168 : node = 0000022BFDEAC780
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 1
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE0438D8 : node = 0000022BFDEAC280
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 2
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE044808 : node = 0000022BFDEACA00
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 3
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE048318 : node = 0000022BFDEAC500
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 4
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE0449B8 : node = 0000022BB946CEA0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 5
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE048B88 : node = 0000022BB946B1E0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 6
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04AD48 : node = 0000022BB946CAE0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 7
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04A4D8 : node = 0000022BB946C720
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 8
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04AB98 : node = 0000022BB946C860
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 9
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04A688 : node = 0000022BB946B460
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 10
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE049C68 : node = 0000022BB946C9A0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 11
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE049E18 : node = 0000022BB946CC20
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 12
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04A178 : node = 0000022BB946B5A0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 13
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE049FC8 : node = 0000022BB946B6E0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 14
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04A9E8 : node = 0000022BB946BFA0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 15
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04A328 : node = 0000022BB946BBE0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 16
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000022BFE04A838 : node = 0000022BB946B960
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 17
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CC088 : node = 0000022BB946BAA0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 18
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CCAA8 : node = 0000022BB946BD20
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 19
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CD168 : node = 0000022BB946BE60
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 20
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CFB98 : node = 0000022B574CCD40
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 21
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CE5A8 : node = 0000022B574CCFC0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Double Bass ALT', format=2, channels=2, frequency=48000, lengthbytes=1149024, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.358925.
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 22
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CF838 : node = 0000022B574CD4C0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 23
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CFD48 : node = 0000022B574CDD80
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 24
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CFEF8 : node = 0000022B574CDEC0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 25
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15D0C78 : node = 0000022B574CE140
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 26
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CEAB8 : node = 00000229F1CDE490
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 27
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CDD38 : node = 00000229F1CDEAD0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 28
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CF688 : node = 00000229F1CDD310
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 29
+[LOG] SystemI::createSound                     :     filename = ..\ims2\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 00000229F15CE908 : node = 00000229F1CDE850
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000229F15E3058.  list count = 30
+[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 49152, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE0469C8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE044658
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BFDEABFD0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Violin ALT', format=2, channels=2, frequency=48000, lengthbytes=1520192, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.082754.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE044658
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE048168
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BFDEAC890
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Cello ALT', format=2, channels=2, frequency=48000, lengthbytes=1392960, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.197597.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE048168
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE0438D8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BFDEAC390
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Viola ALT', format=2, channels=2, frequency=48000, lengthbytes=1488256, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.066564.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE0438D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE044808
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BFDEACB10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Flute ALT', format=2, channels=2, frequency=48000, lengthbytes=1488480, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.098161.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE044808
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE048318
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BFDEAC610
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Sax ALT', format=2, channels=2, frequency=48000, lengthbytes=1279808, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.264070.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE048318
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE0449B8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946CFB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Clarinet ALT', format=2, channels=2, frequency=48000, lengthbytes=1377056, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.217427.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE0449B8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE048B88
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946B2F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='French Horn ALT', format=2, channels=2, frequency=48000, lengthbytes=1100224, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.221971.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE048B88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04AD48
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946CBF0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Synth 1 ALT', format=2, channels=2, frequency=48000, lengthbytes=1384160, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.185187.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04AD48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04A4D8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946C830
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Harp ALT', format=2, channels=2, frequency=48000, lengthbytes=1316864, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.875530.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04A4D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04AB98
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946C970
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano ALT', format=2, channels=2, frequency=48000, lengthbytes=1367744, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.192158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04AB98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04A688
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946B570
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Synth 2 ALT', format=2, channels=2, frequency=48000, lengthbytes=1277696, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.194813.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04A688
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE049C68
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946CAB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Marimba ALT', format=2, channels=2, frequency=48000, lengthbytes=1412896, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.529426.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE049C68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE049E18
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946CD30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar ALT', format=2, channels=2, frequency=48000, lengthbytes=1500192, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.219022.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE049E18
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04A178
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946B6B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Synth ALT', format=2, channels=2, frequency=48000, lengthbytes=1105504, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.799044.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04A178
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE049FC8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946B7F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drum ALT', format=2, channels=2, frequency=48000, lengthbytes=1236544, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.763913.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE049FC8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04A9E8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946C0B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drum Set', format=2, channels=2, frequency=48000, lengthbytes=1387392, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.000000.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04A9E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04A328
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946BCF0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Bass Synth', format=2, channels=2, frequency=48000, lengthbytes=1322304, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.473354.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04A328
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000022BFE04A838
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946BA70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Vibraphone', format=2, channels=2, frequency=48000, lengthbytes=1541440, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.557713.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000022BFE04A838
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CC088
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946BBB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Guitar', format=2, channels=2, frequency=48000, lengthbytes=1563808, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.308758.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CC088
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CCAA8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946BE30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Synth 2', format=2, channels=2, frequency=48000, lengthbytes=1267424, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.273261.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CCAA8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CD168
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022BB946BF70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Synth 1', format=2, channels=2, frequency=48000, lengthbytes=828768, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.336455.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CD168
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CFB98
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022B574CCE50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Harp', format=2, channels=2, frequency=48000, lengthbytes=1392640, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.431667.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CFB98
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CE5A8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022B574CD0D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Piano', format=2, channels=2, frequency=48000, lengthbytes=1336800, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.286981.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CE5A8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CF838
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022B574CD5D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Sax', format=2, channels=2, frequency=48000, lengthbytes=1281280, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.682348.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CF838
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CFD48
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022B574CDE90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='French Horn', format=2, channels=2, frequency=48000, lengthbytes=1144736, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.558695.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CFD48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CFEF8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022B574CDFD0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Clarinet', format=2, channels=2, frequency=48000, lengthbytes=1337280, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.204351.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CFEF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15D0C78
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000022B574CE250
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Flute', format=2, channels=2, frequency=48000, lengthbytes=1455296, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.199176.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15D0C78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CEAB8
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000229F1CDE5A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Double Bass', format=2, channels=2, frequency=48000, lengthbytes=1434560, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.240004.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CEAB8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CDD38
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000229F1CDEBE0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Viola', format=2, channels=2, frequency=48000, lengthbytes=1521248, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.140256.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CDD38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CF688
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000229F1CDD420
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Violin', format=2, channels=2, frequency=48000, lengthbytes=1522304, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.161054.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CF688
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CE908
+[LOG] SystemI::createSoundInternal             :     Create name='..\ims2\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 43237824
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000229F1CDE960
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Cello', format=2, channels=2, frequency=48000, lengthbytes=1470816, lengthpcm=5760000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.336782.
+[LOG] SoundI::getSubSound                      :     sound 0000022BFE0469C8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0000022BFE044658.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0000022BFE048168.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      :     sound 0000022BFE0438D8.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CE908
+[LOG] SoundI::getSubSound                      : sound 0000022BFE044808.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE048318.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE0449B8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE048B88.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04AD48.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04A4D8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04AB98.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04A688.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE049C68.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE049E18.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04A178.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE049FC8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04A9E8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04A328.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000022BFE04A838.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CC088.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CCAA8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CD168.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CFB98.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CE5A8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CF838.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CFD48.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CFEF8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15D0C78.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CEAB8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CDD38.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CF688.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 00000229F15CE908.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15D2418
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15D2418
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CF9E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CF9E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CC598
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CC598
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15D1F08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15D1F08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CDB88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CDB88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15D2928
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15D2928
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15CDB88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15CDB88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000229F15D1F08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000229F15D1F08
+[LOG] SoundI::release                          : Cello (00000229F15CE908)
+[LOG] SoundI::release                          :     Cello (00000229EE8BD438)
+[LOG] SoundI::release                          :     Cello (00000229F15D1F08)
+[LOG] SoundI::release                          : Violin (00000229F15CF688)
+[LOG] SoundI::release                          :     Violin (00000229EE8B99B8)
+[LOG] SoundI::release                          :     Violin (00000229F15D1BA8)
+[LOG] SoundI::release                          : Viola (00000229F15CDD38)
+[LOG] SoundI::release                          :     Viola (00000229EE8BD5D8)
+[LOG] SoundI::release                          :     Viola (00000229F15CF4D8)
+[LOG] SoundI::release                          : Double Bass (00000229F15CEAB8)
+[LOG] SoundI::release                          :     Double Bass (00000229EE8BD298)
+[LOG] SoundI::release                          :     Double Bass (00000229F15CD4C8)
+[LOG] SoundI::release                          : Flute (00000229F15D0C78)
+[LOG] SoundI::release                          :     Flute (00000229EE8B8CB8)
+[LOG] SoundI::release                          :     Flute (00000229F15CF328)
+[LOG] SoundI::release                          : Clarinet (00000229F15CFEF8)
+[LOG] SoundI::release                          :     Clarinet (00000229EE8BCA78)
+[LOG] SoundI::release                          :     Clarinet (00000229F15D2418)
+[LOG] SoundI::release                          : French Horn (00000229F15CFD48)
+[LOG] SoundI::release                          :     French Horn (00000229EE8BBBD8)
+[LOG] SoundI::release                          :     French Horn (00000229F15CF178)
+[LOG] SoundI::release                          : Sax (00000229F15CF838)
+[LOG] SoundI::release                          :     Sax (00000229EE8B94D8)
+[LOG] SoundI::release                          :     Sax (00000229F15CC748)
+[LOG] SoundI::release                          : Piano (00000229F15CE5A8)
+[LOG] SoundI::release                          :     Piano (00000229EE8B82F8)
+[LOG] SoundI::release                          :     Piano (00000229F15CDEE8)
+[LOG] SoundI::release                          : Harp (00000229F15CFB98)
+[LOG] SoundI::release                          :     Harp (00000229EE8BC8D8)
+[LOG] SoundI::release                          :     Harp (00000229F15CDB88)
+[LOG] SoundI::release                          : Synth 1 (00000229F15CD168)
+[LOG] SoundI::release                          :     Synth 1 (00000229EE8B8978)
+[LOG] SoundI::release                          :     Synth 1 (00000229F15CEFC8)
+[LOG] SoundI::release                          : Synth 2 (00000229F15CCAA8)
+[LOG] SoundI::release                          :     Synth 2 (00000229EE8B8638)
+[LOG] SoundI::release                          :     Synth 2 (00000229F15CC3E8)
+[LOG] SoundI::release                          : Guitar (00000229F15CC088)
+[LOG] SoundI::release                          :     Guitar (00000229EE8BAD38)
+[LOG] SoundI::release                          :     Guitar (00000229F15D1848)
+[LOG] SoundI::release                          : Vibraphone (0000022BFE04A838)
+[LOG] SoundI::release                          :     Vibraphone (00000229EE8BA6B8)
+[LOG] SoundI::release                          :     Vibraphone (00000229F15D19F8)
+[LOG] SoundI::release                          : Bass Synth (0000022BFE04A328)
+[LOG] SoundI::release                          :     Bass Synth (00000229EE8BC0B8)
+[LOG] SoundI::release                          :     Bass Synth (00000229F15D1698)
+[LOG] SoundI::release                          : Drum Set (0000022BFE04A9E8)
+[LOG] SoundI::release                          :     Drum Set (00000229EE8B9198)
+[LOG] SoundI::release                          :     Drum Set (00000229F15CEE18)
+[LOG] SoundI::release                          : Drum ALT (0000022BFE049FC8)
+[LOG] SoundI::release                          :     Drum ALT (00000229EE8B7458)
+[LOG] SoundI::release                          :     Drum ALT (00000229F15D0FD8)
+[LOG] SoundI::release                          : Bass Synth ALT (0000022BFE04A178)
+[LOG] SoundI::release                          :     Bass Synth ALT (00000229EE8BD778)
+[LOG] SoundI::release                          :     Bass Synth ALT (00000229F15CE248)
+[LOG] SoundI::release                          : Guitar ALT (0000022BFE049E18)
+[LOG] SoundI::release                          :     Guitar ALT (00000229EE8BAB98)
+[LOG] SoundI::release                          :     Guitar ALT (00000229F15D0E28)
+[LOG] SoundI::release                          : Marimba ALT (0000022BFE049C68)
+[LOG] SoundI::release                          :     Marimba ALT (00000229F15E1368)
+[LOG] SoundI::release                          :     Marimba ALT (00000229F15CCE08)
+[LOG] SoundI::release                          : Synth 2 ALT (0000022BFE04A688)
+[LOG] SoundI::release                          :     Synth 2 ALT (00000229F15E1028)
+[LOG] SoundI::release                          :     Synth 2 ALT (00000229F15D0AC8)
+[LOG] SoundI::release                          : Piano ALT (0000022BFE04AB98)
+[LOG] SoundI::release                          :     Piano ALT (00000229F15E0B48)
+[LOG] SoundI::release                          :     Piano ALT (00000229F15D0918)
+[LOG] SoundI::release                          : Harp ALT (0000022BFE04A4D8)
+[LOG] SoundI::release                          :     Harp ALT (00000229F15E3DA8)
+[LOG] SoundI::release                          :     Harp ALT (00000229F15D2928)
+[LOG] SoundI::release                          : Synth 1 ALT (0000022BFE04AD48)
+[LOG] SoundI::release                          :     Synth 1 ALT (00000229F15E3C08)
+[LOG] SoundI::release                          :     Synth 1 ALT (00000229F15CC238)
+[LOG] SoundI::release                          : French Horn ALT (0000022BFE048B88)
+[LOG] SoundI::release                          :     French Horn ALT (00000229F15E3A68)
+[LOG] SoundI::release                          :     French Horn ALT (00000229F15CD318)
+[LOG] SoundI::release                          : Clarinet ALT (0000022BFE0449B8)
+[LOG] SoundI::release                          :     Clarinet ALT (00000229F15E38C8)
+[LOG] SoundI::release                          :     Clarinet ALT (00000229F15CF9E8)
+[LOG] SoundI::release                          : Sax ALT (0000022BFE048318)
+[LOG] SoundI::release                          :     Sax ALT (00000229F15E3728)
+[LOG] SoundI::release                          :     Sax ALT (00000229F15CEC68)
+[LOG] SoundI::release                          : Flute ALT (0000022BFE044808)
+[LOG] SoundI::release                          :     Flute ALT (00000229F15E3248)
+[LOG] SoundI::release                          :     Flute ALT (00000229F15D14E8)
+[LOG] SoundI::release                          : Viola ALT (0000022BFE0438D8)
+[LOG] SoundI::release                          :     Viola ALT (00000229F15E30A8)
+[LOG] SoundI::release                          :     Viola ALT (00000229F15D00A8)
+[LOG] SoundI::release                          : Cello ALT (0000022BFE048168)
+[LOG] SoundI::release                          :     Cello ALT (00000229F15E33E8)
+[LOG] SoundI::release                          :     Cello ALT (00000229F15CC598)
+[LOG] SoundI::release                          : Violin ALT (0000022BFE044658)
+[LOG] SoundI::release                          :     Violin ALT (00000229F15E3588)
+[LOG] SoundI::release                          :     Violin ALT (00000229F15D2AD8)
+[LOG] SoundI::release                          : Double Bass ALT (0000022BFE0469C8)
+[LOG] SoundI::release                          :     Double Bass ALT (00000229F15E2D68)
+[LOG] SoundI::release                          :     Double Bass ALT (00000229F15D05B8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

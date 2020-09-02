@@ -16,7 +16,7 @@ namespace Valve.VR
     public class SteamVR_RenderModel : MonoBehaviour
     {
         public SteamVR_TrackedObject.EIndex index = SteamVR_TrackedObject.EIndex.None;
-        protected SteamVR_Input_Sources inputSource;
+        public SteamVR_Input_Sources inputSource;
 
         public const string modelOverrideWarning = "Model override is really only meant to be used in " +
             "the scene view for lining things up; using it at runtime is discouraged.  Use tracked device " +

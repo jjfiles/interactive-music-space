@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.ims.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "B:\\Code\\interactive-music-space\\IMS\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\Jeffery\\projects\\interactive-music-space\\IMS\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "IMS [Testing]"

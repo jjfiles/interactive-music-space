@@ -203,7 +203,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8649537999459078335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,7 +322,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8436543143809176961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,6 +476,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-8055317413779366093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert Alt/8-3
+  m_EditorClassIdentifier: 
+  Name: 8-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-7869818616131231917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,7 +526,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7834349269805836447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -662,7 +679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../ims2/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637346711984323543
+  lastModified: 637365669376814666
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -735,7 +752,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7101992403340246567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,7 +854,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6651914988149135087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -888,7 +905,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6608570250016688406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,7 +956,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6430323808995036767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1093,6 +1110,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-6270984159446437622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert Alt/8-2
+  m_EditorClassIdentifier: 
+  Name: 8-2
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 1
 --- !u!114 &-6193545582072969277
 MonoBehaviour:
@@ -1111,6 +1145,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-6175017404240094772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings/3-4
+  m_EditorClassIdentifier: 
+  Name: 3-4
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-6167634900124332056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,7 +1178,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6113712712802637046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,6 +1247,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5942104977934594064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Alt/6-2
+  m_EditorClassIdentifier: 
+  Name: 6-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-5884995669482916011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1228,15 +1296,15 @@ MonoBehaviour:
   Path: event:/Concert Alt
   guid: a06ca2c61d62cb42a4b86d2e1b06ec83
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 4625651969225493856}
-  - {fileID: 6929926435582877879}
-  - {fileID: -6611109059837503841}
-  - {fileID: 5645745573195805889}
+  - {fileID: -3154668567267866381}
+  - {fileID: -8055317413779366093}
+  - {fileID: 7795426695274112253}
+  - {fileID: -6270984159446437622}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000
@@ -1290,7 +1358,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5675054789569554650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,7 +1444,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5586604401226415535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1428,6 +1496,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-5447290168255462135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc/1-2
+  m_EditorClassIdentifier: 
+  Name: 1-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-5436352340464804316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1529,7 +1614,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4909526867930256354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1973,6 +2058,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3414205708822609755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano/2-3
+  m_EditorClassIdentifier: 
+  Name: 2-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-3365914475975242969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1990,7 +2092,7 @@ MonoBehaviour:
   lastModified: 637346711984283652
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3362033549497997020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2076,6 +2178,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3154668567267866381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert Alt/8-4
+  m_EditorClassIdentifier: 
+  Name: 8-4
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-3116824576885503149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2126,7 +2245,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3064443870696732475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2161,6 +2280,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-3038833100712230433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Alt/6-1
+  m_EditorClassIdentifier: 
+  Name: 6-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-3037587296208406146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2229,6 +2365,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-2894893116873624534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert/4-2
+  m_EditorClassIdentifier: 
+  Name: 4-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-2884900294758725911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2331,6 +2484,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-2664013146207109755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc/1-1
+  m_EditorClassIdentifier: 
+  Name: 1-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-2658076927244142596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings Alt/7-4
+  m_EditorClassIdentifier: 
+  Name: 7-4
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-2597055505722223609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2501,15 +2688,15 @@ MonoBehaviour:
   Path: event:/Concert
   guid: 4f06821e3f61d34ab128a54aac062d87
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 6682904527440819696}
-  - {fileID: 8566591288373744627}
-  - {fileID: -7116535917351253381}
-  - {fileID: -8465538746989392130}
+  - {fileID: 5644705465449698910}
+  - {fileID: 3091896598420337486}
+  - {fileID: 4823593774562520753}
+  - {fileID: -2894893116873624534}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000
@@ -2563,7 +2750,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2139038077652117362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2613,15 +2800,15 @@ MonoBehaviour:
   Path: event:/Strings
   guid: bd7ace65477be24bb35f8771d5991b67
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6167634900124332056}
-  - {fileID: -5598118805851803894}
-  - {fileID: -7838698824836604267}
-  - {fileID: -2164050977910825108}
+  - {fileID: -584665967488753315}
+  - {fileID: -974814039666351109}
+  - {fileID: 6735763537805027971}
+  - {fileID: -6175017404240094772}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000
@@ -2796,7 +2983,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1672291385591821566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2899,6 +3086,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-974814039666351109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings/3-1
+  m_EditorClassIdentifier: 
+  Name: 3-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-973887653164328915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3001,6 +3205,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-584665967488753315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings/3-3
+  m_EditorClassIdentifier: 
+  Name: 3-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-566247099998934063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3086,6 +3307,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-276993107614553525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc Alt/5-1
+  m_EditorClassIdentifier: 
+  Name: 5-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-263196166128295584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3103,6 +3341,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-174747597068353851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../ims2/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637365669376731820
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-96521310382919522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3151,7 +3407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -7329740728049291144}
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   EditorEvents:
   - {fileID: -2257572870838309232}
   - {fileID: 9115321432718238378}
@@ -3163,10 +3419,10 @@ MonoBehaviour:
   - {fileID: -5844871700756783622}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   StringsBanks:
   - {fileID: -7329740728049291144}
-  stringsBankWriteTime: 637346711984323543
+  stringsBankWriteTime: 637365669376814666
   cacheVersion: 3
 --- !u!114 &2321879048435664
 MonoBehaviour:
@@ -3236,7 +3492,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &298082827150552763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3390,6 +3646,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &688307791277607476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Alt/6-4
+  m_EditorClassIdentifier: 
+  Name: 6-4
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &829945163684211172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3611,6 +3884,23 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &1314150949037309250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc/1-4
+  m_EditorClassIdentifier: 
+  Name: 1-4
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 1
 --- !u!114 &1410166917371897256
 MonoBehaviour:
@@ -3645,7 +3935,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1420491156930005914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3713,7 +4003,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1613794847817621931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3730,7 +4020,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &1656874390229378518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4061,6 +4351,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &2778363443786487197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano/2-4
+  m_EditorClassIdentifier: 
+  Name: 2-4
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &2820421210773006533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4109,6 +4416,23 @@ MonoBehaviour:
   m_Name: parameter:/Perc/1-2
   m_EditorClassIdentifier: 
   Name: 1-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &3091896598420337486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert/4-3
+  m_EditorClassIdentifier: 
+  Name: 4-3
   Min: 0
   Max: 1
   Default: 0
@@ -4391,6 +4715,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &4580483340006426115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano/2-1
+  m_EditorClassIdentifier: 
+  Name: 2-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &4590665673235937482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4424,7 +4765,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4613777453030577212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4458,7 +4799,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4673729556766029492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4476,6 +4817,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &4782883483404929124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano/2-2
+  m_EditorClassIdentifier: 
+  Name: 2-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &4823593774562520753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert/4-4
+  m_EditorClassIdentifier: 
+  Name: 4-4
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &4837849985504745025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4492,7 +4867,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4920258218344635349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4560,7 +4935,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &5094542512665061899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4630,6 +5005,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &5279957900778575193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings Alt/7-3
+  m_EditorClassIdentifier: 
+  Name: 7-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5371745896895206390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4703,6 +5095,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &5429607803237258112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings Alt/7-1
+  m_EditorClassIdentifier: 
+  Name: 7-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5448483381444110159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4775,7 +5184,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &5583314304363717011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4810,6 +5219,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &5644705465449698910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert/4-1
+  m_EditorClassIdentifier: 
+  Name: 4-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5645745573195805889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4826,7 +5252,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &5702420268039436677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4860,15 +5286,15 @@ MonoBehaviour:
   Path: event:/Strings Alt
   guid: 02447ffc38ac154dbea18be654e72ad0
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6750088873393812810}
-  - {fileID: -6514762207592675863}
-  - {fileID: 8297242717820619207}
-  - {fileID: -1775123682561666701}
+  - {fileID: -2658076927244142596}
+  - {fileID: 5429607803237258112}
+  - {fileID: 5279957900778575193}
+  - {fileID: 5896790796924598310}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000
@@ -5009,6 +5435,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &5896790796924598310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings Alt/7-2
+  m_EditorClassIdentifier: 
+  Name: 7-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &5898406516769967992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5058,15 +5501,15 @@ MonoBehaviour:
   Path: event:/Piano Alt
   guid: 2b3ef3828a232a4bbbf789bf6e28670c
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5577454658708798512}
-  - {fileID: -5740925919119555502}
-  - {fileID: -3088253088721966479}
-  - {fileID: 1613794847817621931}
+  - {fileID: 7685557542796401875}
+  - {fileID: -5942104977934594064}
+  - {fileID: 688307791277607476}
+  - {fileID: -3038833100712230433}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000
@@ -5087,6 +5530,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &6288864035288277578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc/1-3
+  m_EditorClassIdentifier: 
+  Name: 1-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &6398383569941003242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5204,15 +5664,15 @@ MonoBehaviour:
   Path: event:/Piano
   guid: ba94d14a318191468a6317c9aed350e8
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 275015895471782083}
-  - {fileID: -6272603340711495749}
-  - {fileID: 1506490287804108571}
-  - {fileID: 1412324341249721195}
+  - {fileID: 4580483340006426115}
+  - {fileID: 4782883483404929124}
+  - {fileID: 2778363443786487197}
+  - {fileID: -3414205708822609755}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000
@@ -5232,7 +5692,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &6659497221306107306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5283,7 +5743,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &6701352677957575691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5301,6 +5761,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &6735763537805027971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Strings/3-2
+  m_EditorClassIdentifier: 
+  Name: 3-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &6745360866946541781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc Alt/5-2
+  m_EditorClassIdentifier: 
+  Name: 5-2
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &6747009848718843293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5382,6 +5876,23 @@ MonoBehaviour:
   m_Name: parameter:/Concert Alt/8-3
   m_EditorClassIdentifier: 
   Name: 8-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6999683777188696304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc Alt/5-4
+  m_EditorClassIdentifier: 
+  Name: 5-4
   Min: 0
   Max: 1
   Default: 0
@@ -5608,6 +6119,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7449558462835044630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Perc Alt/5-3
+  m_EditorClassIdentifier: 
+  Name: 5-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7498397711941788152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5692,18 +6220,35 @@ MonoBehaviour:
   Path: event:/Perc Alt
   guid: 8fad817ee9c3f7419b971d97eadbedd7
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5090195623612002475}
-  - {fileID: -8723553223680042349}
-  - {fileID: 1248074042723647004}
-  - {fileID: -4939091870030522640}
+  - {fileID: 6745360866946541781}
+  - {fileID: 6999683777188696304}
+  - {fileID: 7449558462835044630}
+  - {fileID: -276993107614553525}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000
+--- !u!114 &7685557542796401875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Alt/6-3
+  m_EditorClassIdentifier: 
+  Name: 6-3
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7698887294884060137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5755,6 +6300,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &7795426695274112253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Concert Alt/8-1
+  m_EditorClassIdentifier: 
+  Name: 8-1
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7882732430011057593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5873,7 +6435,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8360612710770633219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5975,7 +6537,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &8614623012560928182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6162,15 +6724,15 @@ MonoBehaviour:
   Path: event:/Perc
   guid: 88fa76d561f0324c8c83b5b7a1ecdcf0
   Banks:
-  - {fileID: -3365914475975242969}
+  - {fileID: -174747597068353851}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2934643156066961961}
-  - {fileID: 4837849985504745025}
-  - {fileID: 4601266000640708609}
-  - {fileID: 6652537196423764129}
+  - {fileID: -5447290168255462135}
+  - {fileID: 1314150949037309250}
+  - {fileID: 6288864035288277578}
+  - {fileID: -2664013146207109755}
   MinDistance: 0
   MaxDistance: 0
   Length: 120000

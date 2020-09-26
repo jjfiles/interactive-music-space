@@ -14,11 +14,13 @@ ScriptsOnlyBuild:
     - paramAdjust
     - roomSize
     SteamVR.dll:
+    - Valve.VR.SteamVR_Behaviour_Skeleton
     - Valve.VR.SteamVR_ExternalCamera
     - Valve.VR.SteamVR_PlayArea
     - Valve.VR.SteamVR_RenderModel
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
+    - Valve.VR.SteamVR_Skeleton_Poser
     - Valve.VR.SteamVR_TrackedObject
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -50,35 +52,49 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11656}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 11962}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 12078}
+      Script: {instanceID: 12088}
     - Class: 114
-      Script: {instanceID: 12498}
+      Script: {instanceID: 12508}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 12562}
     - Class: 114
-      Script: {instanceID: 13048}
+      Script: {instanceID: 12752}
     - Class: 114
-      Script: {instanceID: 13068}
+      Script: {instanceID: 13058}
     - Class: 114
-      Script: {instanceID: 13410}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 13420}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 13474}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 13554}
+    - Class: 114
+      Script: {instanceID: 13772}
+    - Class: 114
+      Script: {instanceID: 13790}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -169,12 +185,6 @@ ScriptsOnlyBuild:
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem
     className: Throwable
-  - hash:
-      serializedVersion: 2
-      Hash: c1d1a921ff8f0b2121991749afe18690
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: audioTest
   - hash:
       serializedVersion: 2
       Hash: 8528d6b2bf8de7e441f1c781a2231062
@@ -1023,12 +1033,6 @@ ScriptsOnlyBuild:
     className: SteamVR_Overlay
   - hash:
       serializedVersion: 2
-      Hash: 7e3e9d21e6e10c17bd6b45aaac2eae89
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: paramTest
-  - hash:
-      serializedVersion: 2
       Hash: 9e9f97e029dbf3ae34e4f8f1aabde748
     assemblyName: SteamVR.dll
     namespaceName: Valve.VR.InteractionSystem.Sample
@@ -1384,4 +1388,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/SteamVR/Simple Sample.unity
-  playerPath: C:/Users/Jeffery/projects/interactive-music-space/Build v1.04/IMS.exe
+  playerPath: B:/Code/interactive-music-space/Build v1.1/IMS.exe

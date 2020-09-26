@@ -4,3 +4,5 @@ IMS/Temp/UnityLockfile
 IMS/Temp
 venv
 .vscode
+*.zip
+./tracks

@@ -6,3 +6,4 @@ venv
 .vscode
 *.zip
 ./tracks
+tracks

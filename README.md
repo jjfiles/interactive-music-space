@@ -5,6 +5,29 @@
 [![IMS Debut Demo](http://img.youtube.com/vi/bc7wb3WGFGA/0.jpg)](https://www.youtube.com/watch?v=bc7wb3WGFGA)
 
 # Table of Contents
+- [Interactive Music Space](#interactive-music-space)
+- [Table of Contents](#table-of-contents)
+- [Setup](#setup)
+  - [SteamVR](#steamvr)
+  - [In Game](#in-game)
+    - [Controls](#controls)
+- [Running the Project](#running-the-project)
+- [Editing this Project](#editing-this-project)
+  - [Unity](#unity)
+    - [Change Game Objects](#change-game-objects)
+    - [Change Scripts](#change-scripts)
+  - [FMOD](#fmod)
+    - [Adding your own tracks](#adding-your-own-tracks)
+- [References](#references)
+  - [Unity and SteamVR](#unity-and-steamvr)
+  - [FMOD](#fmod-1)
+- [Meet the Team](#meet-the-team)
+  - [Music](#music)
+  - [Software](#software)
+  - [Studio Engineers](#studio-engineers)
+  - [Musicians](#musicians)
+  - [Special Thanks](#special-thanks)
+
 
 # Setup
 

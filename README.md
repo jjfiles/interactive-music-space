@@ -120,7 +120,8 @@ This entire project was completed by Hattiesburg, Mississippi locals
 - Dr. Samuel Dahmer - Double Bass 
 - Dr. Fabi Dahmer - Flute 
 - Heather Gering - Clarinet 
-- Jerico Gotte - Alto Saxophone 
+- Jerico Gotte - Alto Saxophone
+  - [Facebook](https://www.facebook.com/jerico.gotte) | balambsymphony@gmail.com
 - Kevin Fails - French Horn 
 - Tae Young Hong - Piano, Guitar,additional Drums 
 - Nick Wilson - Drums 

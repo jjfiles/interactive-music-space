@@ -111,6 +111,7 @@ This entire project was completed by Hattiesburg, Mississippi locals
 
 ## Studio Engineers
 - John Shannon
+  - [Email](jshan0626@icloud.com)
 - Dylan Ragland
   - [Website](dylanragland.com) | [Instagram](instagram.com/dylanraglandsound)
 
@@ -133,6 +134,7 @@ This entire project was completed by Hattiesburg, Mississippi locals
   - [Email](nicholas.kaine@gmail.com) | [Instagram](instagram.com/the_real_nick_wilson)
 - Victoria Beyea - Harp
 - Joshua Isaiah Hale - Marimba, Vibraphone
+  - [Email](halejoshua19@gmail.com)
 - Evan Cochran - Voice 
 
 ## Special Thanks

@@ -112,19 +112,25 @@ This entire project was completed by Hattiesburg, Mississippi locals
 ## Studio Engineers
 - John Shannon
 - Dylan Ragland
+  - [Website](dylanragland.com) | [Instagram](instagram.com/dylanraglandsound)
 
 ## Musicians
 - Christopher Dean - Violin
 - Rebecca Hale - Viola
 - Ana Ospina - Cello 
-- Dr. Samuel Dahmer - Double Bass 
+- Dr. Samuel Dahmer - Double Bass
+  - [Website](dahmerbass.wixsite.com/bass)
 - Dr. Fabi Dahmer - Flute 
+  - [Website](fabiflute.wixsite.com/fabiflute)
 - Heather Gering - Clarinet 
 - Jerico Gotte - Alto Saxophone
-  - [Facebook](https://www.facebook.com/jerico.gotte) | balambsymphony@gmail.com
-- Kevin Fails - French Horn 
-- Tae Young Hong - Piano, Guitar,additional Drums 
-- Nick Wilson - Drums 
+  - [Email](balambsymphony@gmail.com) | [Facebook](https://www.facebook.com/jerico.gotte)
+- Kevin Fails - French Horn
+  - [Email](kevinlf.music@gmail.com) | [Facebook](facebook.com/kevhornmusic) | [Instagram](instagram.com/hornmusic_kevin)
+- Tae Young Hong - Piano, Guitar,additional Drums
+  - [Email](tyhong0826@gmail.com) | [Instagram](instagram.com/taeyoung.music)
+- Nick Wilson - Drums
+  - [Email](nicholas.kaine@gmail.com) | [Instagram](instagram.com/the_real_nick_wilson)
 - Victoria Beyea - Harp
 - Joshua Isaiah Hale - Marimba, Vibraphone
 - Evan Cochran - Voice 

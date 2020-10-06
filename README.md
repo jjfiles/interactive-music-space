@@ -123,7 +123,8 @@ This entire project was completed by Hattiesburg, Mississippi locals
   - [Website](dahmerbass.wixsite.com/bass)
 - Dr. Fabi Dahmer - Flute 
   - [Website](fabiflute.wixsite.com/fabiflute)
-- Heather Gering - Clarinet 
+- Heather Gering - Clarinet
+  - [Email](heather.gering@usm.edu)
 - Jerico Gotte - Alto Saxophone
   - [Email](balambsymphony@gmail.com) | [Facebook](https://www.facebook.com/jerico.gotte)
 - Kevin Fails - French Horn

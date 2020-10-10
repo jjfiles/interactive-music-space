@@ -118,8 +118,10 @@ This entire project was completed by Hattiesburg, Mississippi locals
 
 ## Musicians
 - Christopher Dean - Violin
+  - [Email](cdean248345@yahoo.com)
 - Rebecca Hale - Viola
 - Ana Ospina - Cello 
+  - [Instagram](instagram.com/ancelloou)
 - Dr. Samuel Dahmer - Double Bass
   - [Website](dahmerbass.wixsite.com/bass)
 - Dr. Fabi Dahmer - Flute 

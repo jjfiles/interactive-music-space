@@ -2,7 +2,8 @@
 
 *The Interactive Music Space or IMS* is a desktop application that turns a room into an interactive music experience. It uses Unity, FMOD, SteamVR, and C# to let users conduct a one of a kind music track.
 
-[![IMS Debut Demo](http://img.youtube.com/vi/bc7wb3WGFGA/0.jpg)](https://www.youtube.com/watch?v=bc7wb3WGFGA)
+[![IMS Debut Demo](http://img.youtube.com/vi/bc7wb3WGFGA/0.jpg)](https://www.youtube.com/watch?v=bc7wb3WGFGA) | 
+[Sound Samples](https://soundcloud.com/josh-hale-25/clips-from-the-interactive-audio-art-piece-modular)
 
 # Table of Contents
 - [Interactive Music Space](#interactive-music-space)

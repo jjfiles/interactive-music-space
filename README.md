@@ -137,9 +137,10 @@ This entire project was completed by Hattiesburg, Mississippi locals
 - Nick Wilson - Drums
   - [Email](nicholas.kaine@gmail.com) | [Instagram](instagram.com/the_real_nick_wilson)
 - Victoria Beyea - Harp
+  - [Website](victoriabeyaharpist.com) | [Email](victoria.beyea@gmail.com) | [Facebook](facebook.com/victoriabeyeaharpist) | [Instagram](instagram.com/victoriabeyeaharpist) | [TikTok](tiktok.com/ZMJ5kSpmX/)
 - Joshua Isaiah Hale - Marimba, Vibraphone
   - [Email](halejoshua19@gmail.com)
-- Evan Cochran - Voice 
+- Evan Cochran - Voice
 
 ## Special Thanks
 - Rachel Zou and Aaron Munson for providing additional equipment
